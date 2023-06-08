@@ -1,15 +1,5 @@
 # atvi-wb-typescript
 
-|Alunos|Nome|
-|:---:|:---:|
-|1|Lucas Braz Dias
-|2|Tais Gomes Salomão
-|3|Priscila Aparecida Silva
----
-## Atividade para Técnica de Programação I
-- Objetivo
-  - Desenvolver um sistema do tipo CLI (command-line interface) com o objetivo suprir as necessidades de uma empresa fícticia do ramo de estética.
-----
 ## Como fazer a aplicação rodar ##
 
 Tendo a ferramenta Git e NodeJS instalados em seu computador:
