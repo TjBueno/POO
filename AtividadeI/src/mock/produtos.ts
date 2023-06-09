@@ -5,86 +5,90 @@ let produtos: {
   valor: number;
 }[] = [
   {
-    nome: 'Sabão em pó',
-    valor: 12
+    nome: 'Kit da Nativa SPA',
+    valor: 150
   },
   {
-    nome: 'Amaciante',
-    valor: 20
+    nome: 'Protetor Solar NEEDS',
+    valor: 50
   },
   {
-    nome: 'Detergente',
-    valor: 22
+    nome: 'Base Sérum Nude',
+    valor: 109
   },
   {
-    nome: 'Água sanitária',
-    valor: 89
+    nome: 'Corretivo CObertura Extrema',
+    valor: 49
   },
   {
-    nome: 'Esponja de aço',
-    valor: 65
+    nome: 'Batom CC Hidratante',
+    valor: 43
   },
   {
-    nome: 'Buchinha de pia',
-    valor: 120
+    nome: 'Blush Color Face',
+    valor: 27
   },
   {
-    nome: 'Sabão em pedra',
-    valor: 28
+    nome: 'Prime Blur Una',
+    valor: 64
   },
   {
-    nome: 'Detergente',
-    valor: 22
+    nome: 'Sabonete Gel p/ Rostos Faces',
+    valor: 29
   },
   {
-    nome: 'Sabonete',
+    nome: 'Sabonete Esfoliante Rosto&Corpo',
     valor: 76
   },
   {
-    nome: 'Shampoo',
-    valor: 68
+    nome: 'Shampoo + Condicionador Eudora',
+    valor: 127
   },
-  // aqui a outra metade
+ 
   {
-    nome: 'Condicionador',
-    valor: 88
-  },
-  {
-    nome: 'Desinfetante',
-    valor: 22
+    nome: 'Kit Voyage Desodorante Colonia + Shampoo',
+    valor: 138
   },
   {
-    nome: 'Lustra móveis',
-    valor: 74
+    nome: 'Óleo Capilar Raparador Karité',
+    valor: 36
   },
   {
-    nome: 'Tira manchas',
-    valor: 31
+    nome: 'Máscara Capilar Acelera o Crescimento 250g',
+    valor: 59
   },
   {
-    nome: 'Limpa vidros',
-    valor: 68
+    nome: 'Espuma de Barbear Eudora H',
+    valor: 44
   },
   {
-    nome: 'Alcool',
-    valor: 124
+    nome: 'Combo La Victorie Perfume 75ml',
+    valor: 302
   },
   {
-    nome: 'Saco de lixo 30l',
-    valor: 55
+    nome: 'Combo Club 6: Desodorante Colônia 95ml + Balm Pós Barba 75g',
+    valor: 151
   },
   {
-    nome: 'Saco de lixo 50l',
-    valor: 75
+    nome: 'Hidratante Mãos FPS 15 Algas do Pacíficos 50g',
+    valor: 24
   },
   {
-    nome: 'Refrigerante 2l',
-    valor: 7
+    nome: 'Base Líquida Skin Control Cor',
+    valor: 62
   },
   {
-    nome: 'Suco garrafa 1l',
-    valor: 4
+    nome: 'Batom Líquido Bordô Intenso Matte',
+    valor: 47
   },
+  {
+    nome: 'Combo Nutri Rose ',
+    valor: 226
+  },
+  {
+    nome: 'Combo Sachê Mascara Instance',
+    valor: 56
+  }
 ];
 
 let produtosInstanciados: Produto[] = 
