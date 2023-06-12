@@ -38,8 +38,8 @@ export default class BarraNavegacao extends Component<props> {
         return (
             <>
                 <nav className={estilo} >
-                    <div className="nav-wrapper" color="purple">
-                        <a className="brand-logo">&nbsp;&nbsp;GRUPO WORLD BEAUTY - WB</a>
+                    <div className="nav-wrapper">
+                        <a className="brand-logo"  >&nbsp;&nbsp;GRUPO WORLD BEAUTY - WB</a>
                         <a data-target="mobile-menu" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down">
                             {this.gerarListaBotoes()}

@@ -72,7 +72,7 @@ export default class FormularioCadastroCliente extends Component<props> {
                                 <div className="botao2">
                                     <div className="row">
                                         <div className="col s6">
-                                            <button className={estiloBotao} type="submit" name="action">Cadastrar
+                                            <button className="botao1" type="submit" name="action">CADASTRAR
                                                 <i className="material-icons right">send</i> 
                                             </button>
                                         </div>
@@ -107,7 +107,7 @@ export default class FormularioCadastroCliente extends Component<props> {
                         </div>
                         <div className="botoes">
                             <div className="row">
-                                <div className="col s12">
+                                <div className="col s6">
                                     <button className="botao1" type="submit" name="action" >CADASTRAR
                                         <i className="material-icons right">send</i>
                                     </button>
