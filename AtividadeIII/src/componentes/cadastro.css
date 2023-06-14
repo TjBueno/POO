@@ -1,0 +1,85 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-gap: 20px;
+    grid-column-gap: 100px;
+    margin: auto;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+.botao{
+    width: 147.733px;
+    margin-left: 10px;
+   
+}
+
+.botao2{
+    width: 147.733px;
+    margin-left: 370px;   
+}
+
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.h6{
+    text-align: center;
+}
+
+.tes{
+    text-align: center !important;
+}
+
+main{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+section{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.box{
+    margin: auto;
+    background-color: #FFFFFE;
+    box-shadow: 0px 1px 42px rgba(151, 116, 208, 0.25);
+    border-radius: 10px;
+    padding: 10px 20px 20px 20px;
+    max-width: 960px;
+    display: flex;
+	flex-wrap: wrap;
+    text-align: center;
+}
+
+.teste{
+    margin-top: 30px;
+}
+
+.input-field .prefix.active {
+    color: #E1BEE7;;
+  }
+
+  /* label color */
+  .input-field label {
+    color: #bdbdbd;
+  } 
+
+  @media(max-width: 768px) {
+    body {
+        margin: 0 15px;
+    }
+
+    section {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+  }
