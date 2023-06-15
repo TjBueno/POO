@@ -34,14 +34,14 @@ export default class ProdutosServicos extends Component<props> {
                                             <tr>
                                                 <td>Aplicação de Botox</td>
                                                 <td></td>
-                                                <td>R$ 100,00</td>
+                                                <td>R$ 150,00</td>
                                                 <td><i className="material-icons right">mode_edit</i></td>
                                             </tr>
                                             <tr>
-                                                <td>Tratamento de manchas</td>
+                                                <td>Tratamento de Manchas na Pele</td>
                                             </tr>
                                             <tr>
-                                                <td>Remoção de rugas</td>
+                                                <td>Remoção de Rugas</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -65,7 +65,7 @@ export default class ProdutosServicos extends Component<props> {
                                             <tr>
                                                 <td>Corte de cabelos</td>
                                                 <td>Masc / Fem</td>
-                                                <td>R$ 50,00</td>
+                                                <td>R$ 45,00</td>
                                                 <td><i className="material-icons right">mode_edit</i></td>
                                             </tr>
                                             <tr>
@@ -105,8 +105,8 @@ export default class ProdutosServicos extends Component<props> {
                             <br></br>
                             <div className='col s12 m12 l4 estilo'>
                                 <div className="box">
-                                    <h5>Produtos e serviços mais consumidos</h5>
-                                    <h6>pelo público masculino</h6>
+                                    <h5>Produtos e serviços mais consumidos <strong>público masculino</strong></h5>
+                               
                                     <table>
                                         <thead>
                                             <tr>
@@ -126,8 +126,8 @@ export default class ProdutosServicos extends Component<props> {
                             <br></br>
                             <div className='col s12 m12 l4 estilo'>
                                 <div className="box">
-                                    <h5>Produtos e serviços mais consumidos</h5>
-                                    <h6>pelo público feminino</h6>
+                                    <h5>Produtos e serviços mais consumidos <strong> público Feminino</strong></h5>
+                                 
                                     <table>
                                         <thead>
                                             <tr>

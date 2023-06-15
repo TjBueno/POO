@@ -6,33 +6,51 @@ html, body{
 
 .container{
     display: grid;
-    grid-template-columns: 4fr 2fr;
-    grid-gap: 20px;
-    grid-column-gap: 100px;
+    grid-template-columns: 50fr 50fr;
+    grid-gap: 12px;
+    grid-column-gap: 40px;
     margin: auto;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 10vh 0vh 10vh;
 }
 
-.botao{
+
+
+   
+
+.botao1{
+    background-color: #440052;
+    box-shadow: 0px 1px 10px rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+	flex-wrap: wrap;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 10px;
+    line-height: 1.5em;
+    font-weight:    bolder;
     width: 147.733px;
     margin-left: 10px;
-   
+    align-items: center;
+    
+    
+
 }
 
-.botao2{
-    width: 147.733px;
-    margin-left: 370px;   
+.botao1:hover{
+    background-color: #FFFFFE;
+    color:#440052;
+    border-color: #440052;
+    transition: 1s;
+
 }
 
 .botoes{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    
 }
 
-.h6{
-    text-align: center;
-}
 
 .tes{
     text-align: center !important;
@@ -51,7 +69,7 @@ section{
 .box{
     margin: auto;
     background-color: #FFFFFE;
-    box-shadow: 0px 1px 42px rgba(151, 116, 208, 0.25);
+    box-shadow: 0px 1px 42px rgba(149, 26, 165, 0.438);
     border-radius: 10px;
     padding: 10px 20px 20px 20px;
     max-width: 960px;
@@ -60,12 +78,17 @@ section{
     text-align: center;
 }
 
+.box:hover{
+    box-shadow: 0px 1px 42px   rgba(83, 1, 98, 0.952); 
+    transition: 1s;
+}
+
 .teste{
     margin-top: 30px;
 }
 
 .input-field .prefix.active {
-    color: #E1BEE7;;
+    color: #440052;;
   }
 
   /* label color */
@@ -83,3 +106,21 @@ section{
         grid-column-end: 1;
     }
   }
+.nav-wrapper{
+    background: #440052;
+}
+
+
+.nav ul:hover{
+    background-color: #FFFFFE;
+}
+
+
+
+
+.right :hover{
+    background-color: #FFFFFE;
+    color: #440052;
+
+}
+

@@ -48,15 +48,7 @@ export default class FormularioCadastroCliente extends Component<props> {
                                     <input type="text" className="validate" />
                                     <label htmlFor="email">RG</label>
                                 </div>
-{/*                                 <div className="row">
-                                    <div className="input-field col s12">
-                                        <label>Possui mais de um RG?</label>
-                                        <select>
-                                            <option value="1">Sim</option>
-                                            <option value="2">Não</option>
-                                        </select>
-                                    </div>
-                                </div> */}
+
                                 <div className="input-field col s12">
                                     <i className="material-icons prefix">account_box</i>
                                     <input type="text" className="validate" />
@@ -80,7 +72,7 @@ export default class FormularioCadastroCliente extends Component<props> {
                                 <div className="botao2">
                                     <div className="row">
                                         <div className="col s6">
-                                            <button className={estiloBotao} type="submit" name="action">Cadastrar
+                                            <button className="botao1" type="submit" name="action">CADASTRAR
                                                 <i className="material-icons right">send</i> 
                                             </button>
                                         </div>
@@ -115,8 +107,8 @@ export default class FormularioCadastroCliente extends Component<props> {
                         </div>
                         <div className="botoes">
                             <div className="row">
-                                <div className="col s12">
-                                    <button className={estiloBotao} type="submit" name="action">Cadastrar
+                                <div className="col s6">
+                                    <button className="botao1" type="submit" name="action" >CADASTRAR
                                         <i className="material-icons right">send</i>
                                     </button>
                                 </div>

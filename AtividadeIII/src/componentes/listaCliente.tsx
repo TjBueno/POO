@@ -33,21 +33,21 @@ export default class ListaCliente extends Component<props> {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Lucas Braz</td>
-                                                <td>lucas.b@gmail.com</td>
-                                                <td>12 2345-6789</td>
+                                                <td>Adriano Araujo</td>
+                                                <td>dri_araujo@gmail.com</td>
+                                                <td>12 99526-1954</td>
                                                 <td><i className="material-icons right">mode_edit</i></td>
                                             </tr>
                                             <tr>
-                                                <td>Gabriel Bicho Nnes</td>
-                                                <td>gabriel.nunes@gmail.com</td>
-                                                <td>12 3456-7890</td>
+                                                <td>André Victor</td>
+                                                <td>andrezin@gmail.com</td>
+                                                <td>12 98291-4556</td>
                                                 <td><i className="material-icons right">mode_edit</i></td>
                                             </tr>
                                             <tr>
-                                                <td>Lucas Ferreira</td>
-                                                <td>lucas.ferreira@gmail.com</td>
-                                                <td>12 3456-8901</td>
+                                                <td>Lucca Maciel</td>
+                                                <td>luquinha326@gmail.com</td>
+                                                <td>12 398242-8245</td>
                                                 <td><i className="material-icons right">mode_edit</i></td>
                                             </tr>
                                         </tbody>
@@ -69,21 +69,21 @@ export default class ListaCliente extends Component<props> {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Priscila Silva</td>
-                                                <td>pri_silva@gmail.com</td>
-                                                <td>12 5678-9012</td>
+                                                <td>Marina Angela</td>
+                                                <td>marinaangela864@gmail.com</td>
+                                                <td>12 98294-4547</td>
                                                 <td><i className="material-icons right">mode_edit</i></td>
                                             </tr>
                                             <tr>
-                                                <td>Tais Gomes Salomão</td>
-                                                <td>tais_salomao@hotmail.com</td>
-                                                <td>12 56789-0123</td>
+                                                <td>Adrianne Araujo</td>
+                                                <td>adriannearaujomaciel@hotmail.com</td>
+                                                <td>12 98242-8245</td>
                                                 <td><i className="material-icons right">mode_edit</i></td>
                                             </tr>
                                             <tr>
-                                                <td>Elen Petri</td>
-                                                <td>elen_petri@gmail.com</td>
-                                                <td>12 7890-1234</td>
+                                                <td>Marilia Araujo</td>
+                                                <td>mariliaaraujomaciel@gmail.com</td>
+                                                <td>12 99746-1941</td>
                                                 <td><i className="material-icons right">mode_edit</i></td>
                                             </tr>
                                         </tbody>
@@ -98,8 +98,8 @@ export default class ListaCliente extends Component<props> {
                         <br />
                         <div className='col s12 m12 l4 estilo'>
                             <div className="box">
-                                <h5>Top 10 que mais consumiram</h5>
-                                <h6>por quantidade</h6>
+                                <h5>Top 10 que mais consumiram <strong>por quantidade </strong></h5>
+                                
                                 <table>
                                     <thead>
                                         <tr>
@@ -120,8 +120,8 @@ export default class ListaCliente extends Component<props> {
                         <div>
                             <div className='col s12 m12 l4 estilo'>
                                 <div className="box">
-                                    <h5>Top 10 que menos consumiram</h5>
-                                    <h6>por quantidade</h6>
+                                    <h5>Top 10 que menos consumiram <strong>por quantidade</strong></h5>
+                                    
                                     <table>
                                         <thead>
                                             <tr>
@@ -141,8 +141,8 @@ export default class ListaCliente extends Component<props> {
                             <br />
                             <div className='col s12 m12 l4 estilo'>
                                 <div className="box">
-                                    <h5>Top 10 que mais consumiram</h5>
-                                    <h6>por valor</h6>
+                                    <h5>Top 10 que mais consumiram <strong>por valor</strong> </h5>
+                                    
                                     <table>
                                         <thead>
                                             <tr>
