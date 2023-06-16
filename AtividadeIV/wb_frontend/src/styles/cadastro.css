@@ -14,7 +14,6 @@ html, body{
 }
 
 
-   
 
 .botao1{
     background-color: #440052;
@@ -44,15 +43,62 @@ html, body{
 
 }
 
-.botoes{
-    display: flex;
-    justify-content: center;
-    
+.botao{
+    width: 147.733px;
+    background-color: #440052;
+    margin-top: 50px;
 }
 
+.botao_cancelar{
+    width: 147.733px;
+    margin-left: 10px;
+    background-color: #440052;
+}
 
-.tes{
+.botao_cancelar:hover{
+    background-color:#FFFFFE;
+    color:#440052;
+    border-color: #440052;
+    transition: 1s;
+}
+
+.botao:hover{
+    background-color:#FFFFFE;
+    color:#440052;
+    border-color: #440052;
+    transition: 1s;
+}
+
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botoes_user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important ;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.topo{
+    margin-top: 70px;
+}
+
+input:hover{
+    background-color: #440052;
+}
+
+.subtitulo{
     text-align: center !important;
+    justify-content: center !important;
+    margin-left: 50px;
+}
+
+.h6{
+    text-align: center;
 }
 
 main{
@@ -60,7 +106,7 @@ main{
     grid-column-end: 2;
 }
 
-section{
+aside{
     grid-column-start: 2;
     grid-column-end: 3;
 }
@@ -70,7 +116,7 @@ section{
     background-color: #FFFFFE;
     box-shadow: 0px 1px 42px rgba(149, 26, 165, 0.438);
     border-radius: 10px;
-    padding: 10px 20px 20px 20px;
+    padding: 40px 20px 20px 20px;
     max-width: 960px;
     display: flex;
 	flex-wrap: wrap;
@@ -82,12 +128,31 @@ section{
     transition: 1s;
 }
 
+.cliente{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 .teste{
     margin-top: 30px;
 }
 
+.titulo{
+    margin: auto auto 30px auto;
+    color: #440052;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.edit{
+    color: #440052;
+}
+
 .input-field .prefix.active {
-    color: #440052;;
+    color: #440052;
   }
 
   /* label color */
@@ -100,13 +165,14 @@ section{
         margin: 0 15px;
     }
 
-    section {
-        grid-column-start: 1;
-        grid-column-end: 1;
+    aside {
+        width: 100%;
     }
   }
-.nav-wrapper{
+
+  .nav-wrapper{
     background: #440052;
+    
 }
 
 
